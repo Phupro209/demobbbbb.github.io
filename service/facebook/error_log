@@ -1,0 +1,10 @@
+[25-Jan-2022 14:40:41 UTC] PHP Notice:  Undefined variable: NTD in /home/nguyenti35/public_html/config/head.php on line 22
+[25-Jan-2022 14:40:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function site() on null in /home/nguyenti35/public_html/config/head.php:22
+Stack trace:
+#0 /home/nguyenti35/public_html/service/facebook/likepost.php(2): require()
+#1 {main}
+  thrown in /home/nguyenti35/public_html/config/head.php on line 22
+[25-Jan-2022 14:45:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function BASE_URL() in /home/nguyenti35/public_html/service/facebook/likepost.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nguyenti35/public_html/service/facebook/likepost.php on line 8
